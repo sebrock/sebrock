@@ -30,7 +30,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_achievements: yes
-          plugin_achievements_only: polyglot, stargazer, developer, contributor, octonaut
           plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }}
           output_action: pull-request
            
@@ -58,21 +57,27 @@ jobs:
           plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }}
           output_action: pull-request
           
-     # 🌇 GitHub Skyline 3D calendar
-      # GitHub skyline commits calendar
-      - name: 🌇 GitHub Skyline 3D calendar
+     # 🗂️ Projects
+      # Display active projects
+      # Note that :
+      # - A "public_repo" scope is required
+      # - It uses user projects by default (those which are on your profile)
+      # - You can use repositories projects by providing a list of comma-separated endpoints
+      # - You can set "plugin_projects_limit" to 0 to display only "plugin_projects_repositories"
+      # - You'll need to enable "Track project progress" in your projects to display a progress bar
+      - name: 🗂️ Projects plugin
         if: ${{ success() || failure() }}
         uses: sebrock/metrics@master
         with:
-          filename: metrics.plugin.skyline.svg
-          token: NOT_NEEDED
-          plugin_skyline: yes
-          plugin_skyline_year: 2021
-          plugin_skyline_frames: 6
-          plugin_skyline_quality: 1
-          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          filename: metrics.plugin.projects.svg
+          token: ${{ secrets.METRICS_BOT_TOKEN }}
+          base: ""
+          plugin_projects: yes
+          plugin_projects_repositories: lowlighter/metrics/projects/1
+          plugin_projects_descriptions: yes
+          plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }}
           output_action: pull-request
-          
+                  
        # List permissions, limitations and conditions of licenses and dependencies
       - name: 📜 Licenses
         if: ${{ success() || failure() }}
@@ -89,7 +94,6 @@ jobs:
           output_action: pull-request
           
      # 🧑‍🤝‍🧑 People plugin
-
       # Display followers and followed users
       - name: 🧑‍🤝‍🧑 People plugin
         if: ${{ success() || failure() }}
@@ -102,8 +106,7 @@ jobs:
           plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }}
           output_action: pull-request
           
-         # 🌟 Recently starred repositories
-
+      # 🌟 Recently starred repositories
       # Display latest starred repositories
       - name: 🌟 Stars plugin
         if: ${{ success() || failure() }}
@@ -116,8 +119,25 @@ jobs:
           plugin_stars_limit: 3
           plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }}
           output_action: pull-request
-          # 🚧 Debug
+          
+      # ======================================================================================
+      # 🎭 Comment reactions plugin
 
+      # Display comment reactions statistics
+      - name: 🎭 Reactions plugin
+        if: ${{ success() || failure() }}
+        uses: sebrock/metrics@master
+        with:
+          filename: metrics.plugin.reactions.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_reactions: yes
+          plugin_reactions_limit: 100
+          plugin_reactions_details: percentage
+          plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }}
+          output_action: pull-request
+          
+     # 🚧 Debug
       - name: 🚧 Check retries feature
         if: false
         uses: sebrock/metrics@master
@@ -129,4 +149,4 @@ jobs:
           debug_flags: --error
           debug: yes
           dryrun: yes
-          plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }}      
+          plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }} 
