@@ -11,10 +11,12 @@
 
 ![Metrics](https://github.com/sebrock/sebrock/blob/main/metrics.plugin.isocalendar.fullyear.svg)
 
-![Metrics](https://github.com/sebrock/sebrock/blob/main/metrics.plugin.skyline.svg)
+![Metrics](https://github.com/sebrock/sebrock/blob/main/metrics.plugin.projects.svg)
 
 ![Metrics](https://github.com/sebrock/sebrock/blob/main/metrics.plugin.licenses.svg)
 
 ![Metrics](https://github.com/sebrock/sebrock/blob/main/metrics.plugin.people.svg)
+
+![Metrics](https://github.com/sebrock/sebrock/blob/main/metrics.plugin.reactions.svg)
 
 ![Metrics](https://github.com/sebrock/sebrock/blob/main/metrics.plugin.stars.svg)
