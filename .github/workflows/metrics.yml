@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: 📗 Classic template
         if: ${{ success() || failure() }}
-      - uses: sebrock/metrics@master
+        uses: sebrock/metrics@master
         with:
           filename: metrics.classic.svg
           token: ${{ secrets.METRICS_TOKEN }}
