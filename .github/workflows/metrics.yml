@@ -1,0 +1,132 @@
+name: Metrics
+on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 * * * *"}]
+  # Lines below let you run workflow manually and on each commit (optional)
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    if: "github.repository == 'sebrock/sebrock'"
+    steps:
+      - name: 📗 Classic template
+        if: ${{ success() || failure() }}
+      - uses: sebrock/metrics@master
+        with:
+          filename: metrics.classic.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, repositories
+          plugin_lines: yes
+          plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }}
+          output_action: pull-request
+     
+     # Achievements
+      - name: 🏆 Achievements
+        if: ${{ success() || failure() }}
+        uses: sebrock/metrics@master
+        with:
+          filename: metrics.plugin.achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: polyglot, stargazer, developer, contributor, octonaut
+          plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }}
+          output_action: pull-request
+           
+      # 📰 Recent activity
+      # Display recent activity
+      - name: 📰 Activity plugin
+        if: ${{ success() || failure() }}
+        uses: sebrock/metrics@master
+        with:
+          filename: metrics.plugin.activity.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_activity: yes
+          
+     # Display isometric calendar (365 days)
+      - name: 📅 Isocalendar plugin (full year)
+        if: ${{ success() || failure() }}
+        uses: sebrock/metrics@master
+        with:
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }}
+          output_action: pull-request
+          
+     # 🌇 GitHub Skyline 3D calendar
+      # GitHub skyline commits calendar
+      - name: 🌇 GitHub Skyline 3D calendar
+        if: ${{ success() || failure() }}
+        uses: sebrock/metrics@master
+        with:
+          filename: metrics.plugin.skyline.svg
+          token: NOT_NEEDED
+          plugin_skyline: yes
+          plugin_skyline_year: 2021
+          plugin_skyline_frames: 6
+          plugin_skyline_quality: 1
+          plugins_errors_fatal: ${{ github.repository == 'lowlighter/lowlighter' }}
+          output_action: pull-request
+          
+       # List permissions, limitations and conditions of licenses and dependencies
+      - name: 📜 Licenses
+        if: ${{ success() || failure() }}
+        uses: sebrock/metrics@master
+        with:
+          filename: metrics.plugin.licenses.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          template: repository
+          repo: metrics
+          plugin_licenses: yes
+          plugin_licenses_setup: npm ci
+          plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }}
+          output_action: pull-request
+          
+     # 🧑‍🤝‍🧑 People plugin
+
+      # Display followers and followed users
+      - name: 🧑‍🤝‍🧑 People plugin
+        if: ${{ success() || failure() }}
+        uses: sebrock/metrics@master
+        with:
+          filename: metrics.plugin.people.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_people: yes
+          plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }}
+          output_action: pull-request
+          
+         # 🌟 Recently starred repositories
+
+      # Display latest starred repositories
+      - name: 🌟 Stars plugin
+        if: ${{ success() || failure() }}
+        uses: sebrock/metrics@master
+        with:
+          filename: metrics.plugin.stars.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_stars: yes
+          plugin_stars_limit: 3
+          plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }}
+          output_action: pull-request
+          # 🚧 Debug
+
+      - name: 🚧 Check retries feature
+        if: false
+        uses: sebrock/metrics@master
+        continue-on-error: true
+        with:
+          token: ${{ secrets.METRICS_BOT_TOKEN }}
+          retries: 3
+          retries_delay: 0
+          debug_flags: --error
+          debug: yes
+          dryrun: yes
+          plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }}      
