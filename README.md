@@ -5,13 +5,11 @@
 
 ![Metrics](https://github.com/sebrock/sebrock/blob/main/metrics.classic.svg)
 
+![Metrics](https://github.com/sebrock/sebrock/blob/main/metrics.plugin.isocalendar.fullyear.svg)
+
 ![Metrics](https://github.com/sebrock/sebrock/blob/main/metrics.plugin.achievements.svg)
 
 ![Metrics](https://github.com/sebrock/sebrock/blob/main/metrics.plugin.activity.svg)
-
-![Metrics](https://github.com/sebrock/sebrock/blob/main/metrics.plugin.isocalendar.fullyear.svg)
-
-![Metrics](https://github.com/sebrock/sebrock/blob/main/metrics.plugin.projects.svg)
 
 ![Metrics](https://github.com/sebrock/sebrock/blob/main/metrics.plugin.licenses.svg)
 
