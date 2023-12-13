@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="349" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="154" class="">
     <defs>
         <style/>
     </defs>
@@ -43,77 +43,6 @@
                                     <div class="commit">
                                         <div class="sha">#a9aae81</div>
                                         <div class="message">Update metrics.classic.svg - [Skip GitHub Action]</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 4 commits in
-                                        <span class="repo">sebrock/sebrock</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">main</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#253e159</div>
-                                        <div class="message">Merge pull request #476 from sebrock/metrics-run-7015457126</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#9aa8d1b</div>
-                                        <div class="message">Update metrics.plugin.stars.svg - [Skip GitHub Action]</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#aba6b48</div>
-                                        <div class="message">Update metrics.plugin.isocalendar.fullyear.svg - [Skip GitHub Action]</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#fd9c743</div>
-                                        <div class="message">Update metrics.classic.svg - [Skip GitHub Action]</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 2 commits in
-                                        <span class="repo">sebrock/banano-cam</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#30ef9cf</div>
-                                        <div class="message">Merge pull request #59 from sebrock/dependabot/npm_and_yarn/babel/traverse-7.23.2
-
-Bump @babel/traverse from 7.8.6 to 7.23.2</div>
-                                    </div>
-                                    <div class="commit">
-                                        <div class="sha">#b7e7136</div>
-                                        <div class="message">Bump @babel/traverse from 7.8.6 to 7.23.2
-
-Bumps [@babel/traverse](https://github.com/babel/babel/tree/HEAD/packages/babel-traverse) from 7.8.6 to 7.23.2.
-- [Release notes](https://github.com/babel/babel/releases)
-- [Changelog](https://github.com/babel/babel/blob/main/CHANGELOG.md)
-- [Commits](https://github.com/babel/babel/commits/v7.23.2/packages/babel-traverse)
-
----
-updated-dependencies:
-- dependency-name: "@babel/traverse"
-  dependency-type: indirect
-...
-
-Signed-off-by: dependabot[bot] &lt;support@github.com&gt;</div>
                                     </div>
                                 </div>
                             </section>
