@@ -22,16 +22,16 @@ jobs:
           output_action: pull-request
      
      # Achievements
-      - name: 🏆 Achievements
-        if: ${{ success() || failure() }}
-        uses: sebrock/metrics@master
-        with:
-          filename: metrics.plugin.achievements.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }}
-          output_action: pull-request
+      #- name: 🏆 Achievements
+        #if: ${{ success() || failure() }}
+        #uses: sebrock/metrics@master
+        #with:
+          #filename: metrics.plugin.achievements.svg
+          #token: ${{ secrets.METRICS_TOKEN }}
+          #base: ""
+          #plugin_achievements: yes
+          #plugins_errors_fatal: ${{ github.repository == 'sebrock/sebrock' }}
+          #output_action: pull-request
            
       # 📰 Recent activity
       # Display recent activity
