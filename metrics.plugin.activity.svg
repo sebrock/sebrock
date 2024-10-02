@@ -2,7 +2,7 @@
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details,.activity .timestamp{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .timestamp{font-size:10px;margin-top:4px}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}code[class^=language-]{white-space:pre-wrap;width:97%;margin-top:4px}.token.comment{color:#690}.token.namespace{color:#b44418}.token.trimmed{font-style:italic;color:#77777760}.space{margin-left:7px}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}.chartist .ct-post{fill:rgba(127,127,127,.8)!important;color:rgba(127,127,127,.8)!important;font-size:9px;text-anchor:middle}.activity{margin-bottom:12px}.activity .field{width:100%;overflow:hidden;text-overflow:ellipsis;max-width:450px;white-space:nowrap;margin-bottom:0}.activity .field .content{flex-grow:1;text-overflow:ellipsis;overflow:hidden}.activity .commit .sha,.activity .issue,.activity .repo{display:inline;color:#58a6ff}.activity .code,span.code{background-color:#7777771f;padding:1px 5px;font-size:80%;border-radius:6px;color:#777;font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;margin:0 4px -3px}.activity .details{padding-left:38px;display:flex;flex-direction:column;font-size:13px;color:#666}.activity .commit{display:flex;align-items:center}.activity .commit .sha,code{font-family:SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace}.activity .commit .sha{margin-right:4px}.activity .commit .message{overflow:hidden;text-overflow:ellipsis;width:360px;white-space:nowrap}.activity .details&gt;.comment{overflow:hidden;text-overflow:ellipsis;display:block;width:420px;margin-top:6px;border-left:3px solid #777777b2;padding-left:6px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}code{background-color:#7777771f;display:inline-block;border-radius:6px;color:#777;padding:1px 5px;font-size:80%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -15,6 +15,27 @@
                 </h2>
                 <div class="row">
                     <section>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Commented on
+                                        <span class="issue">#2982 Updating fails: "maintenancetool quit unexpectedly"</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>opened by shanecav84 in <span class="repo">nomic-ai/gpt4all</span></div>
+                                    <div class="comment">
+                                        <i>I was able to update to the most recent version by deleting the app and its folder in /Applications. The installer wouldn't let me install if the folder was present.</i>
+                                        Thanks! Worked for me.
+While this is a feasible temporary workaround, bug should be fixed.
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                         <div class="row fill-width">
                             <section class="activity">
                                 <div class="field">
@@ -113,203 +134,6 @@ Auto-generated metrics for run #11066364535</div>
                                     <div class="commit">
                                         <div class="sha">#5dde15f</div>
                                         <div class="message">Update metrics.classic.svg - [Skip GitHub Action]</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M2.75 2.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h2a.75.75 0 01.75.75v2.19l2.72-2.72a.75.75 0 01.53-.22h4.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25H2.75zM1 2.75C1 1.784 1.784 1 2.75 1h10.5c.966 0 1.75.784 1.75 1.75v7.5A1.75 1.75 0 0113.25 12H9.06l-2.573 2.573A1.457 1.457 0 014 13.543V12H2.75A1.75 1.75 0 011 10.25v-7.5z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Commented on
-                                        <span class="issue">#2982 Updating fails: "maintenancetool quit unexpectedly"</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>opened by shanecav84 in <span class="repo">nomic-ai/gpt4all</span></div>
-                                    <div class="comment">
-                                        Same behaviour on Apple Mac M3 , MacOS 15.0 (24A335)
-                                        <b>`-------------------------------------
-Translated Report (Full Report Below)</b>
-                                        Incident Identifier: D4DC7BB5-4063-4315-B8BA-4DF8AFE3B5A5
-CrashReporter Key:   FC9E7815-489E-3C0B-67F9-07A62363BE64
-Hardware Model:      Mac15,11
-Process:             maintenancetool [44701]
-Path:                /Applications/gpt4all/maintenancetool.app/Contents/MacOS/maintenancetool
-Identifier:          com.yourcompany.installerbase
-Version:             4.7.0 (4.7.0)
-Code Type:           X86-64 (Native)
-Role:                Unspecified
-Parent Process:      launchd [1]
-Coalition:           gpt4all [20594]
-Responsible Process: gpt4all [44690]
-Date/Time:           2024-09-26 18:34:07.4524 +0200
-Launch Time:         2024-09-26 18:34:07.4388 +0200
-OS Version:          macOS 15.0 (24A335)
-Release Type:        User
-Report Version:      104
-Exception Type:  EXC_CRASH (SIGKILL (Code Signature Invalid))
-Exception Codes: 0x0000000000000000, 0x0000000000000000
-Termination Reason: CODESIGNING 1 Taskgated Invalid Signature
-Triggered by Thread:  0
-Thread 0 Crashed:
-0   main_executable_path_missing  	    0x7ff7ffd8bf7c 0x7ff7ffd89000 + 12156
-Thread 0 crashed with X86 Thread State (64-bit):
-  rax: 0x0000000000000000  rbx: 0x0000000000000000  rcx: 0x0000000000000000  rdx: 0x0000000000000000
-  rdi: 0x0000000000000000  rsi: 0x0000000000000000  rbp: 0x0000000000000000  rsp: 0x0000000000000000
-   r8: 0x0000000000000000   r9: 0x0000000000000000  r10: 0x0000000000000000  r11: 0x0000000000000000
-  r12: 0x0000000000000000  r13: 0x0000000000000000  r14: 0x0000000000000000  r15: 0x0000000000000000
-  rip:        rfl: 0x0000000000000203
- tmp0: 0x0000000000000000 tmp1: 0x0000000000000000 tmp2: 0x0000000000000000
-Binary Images:
-       0x2075a0000 -        0x20762cfff dyld_path_missing ()  /dyld_path_missing
-    0x7ff7ffd89000 -     0x7ff7ffdb8fff main_executable_path_missing ()  /main_executable_path_missing
-               0x0 - 0xffffffffffffffff ??? (*) &lt;00000000-0000-0000-0000-000000000000&gt; ???
-Error Formulating Crash Report:
-dyld_process_snapshot_get_shared_cache failed
-PC register does not match crashing frame (0x0 vs 0x7FF7FFD8BF7C)
-EOF
-                                        <b>Full Report</b>
-                                        {"app_name":"maintenancetool","timestamp":"2024-09-26 18:34:08.00 +0200","app_version":"4.7.0","slice_uuid":"419ad3e4-9149-3064-bd5f-12e6c084b388","build_version":"4.7.0","platform":0,"bundleID":"com.yourcompany.installerbase","share_with_app_devs":0,"is_first_party":0,"bug_type":"309","os_version":"macOS 15.0 (24A335)","roots_installed":0,"name":"maintenancetool","incident_id":"D4DC7BB5-4063-4315-B8BA-4DF8AFE3B5A5"}
-{
-  "uptime" : 100000,
-  "procRole" : "Unspecified",
-  "version" : 2,
-  "userID" : 502,
-  "deployVersion" : 210,
-  "modelCode" : "Mac15,11",
-  "coalitionID" : 20594,
-  "osVersion" : {
-    "train" : "macOS 15.0",
-    "build" : "24A335",
-    "releaseType" : "User"
-  },
-  "captureTime" : "2024-09-26 18:34:07.4524 +0200",
-  "codeSigningMonitor" : 1,
-  "incident" : "D4DC7BB5-4063-4315-B8BA-4DF8AFE3B5A5",
-  "pid" : 44701,
-  "translated" : true,
-  "cpuType" : "X86-64",
-  "roots_installed" : 0,
-  "bug_type" : "309",
-  "procLaunch" : "2024-09-26 18:34:07.4388 +0200",
-  "procStartAbsTime" : 2582237245766,
-  "procExitAbsTime" : 2582237458801,
-  "procName" : "maintenancetool",
-  "procPath" : "/Applications/gpt4all/maintenancetool.app/Contents/MacOS/maintenancetool",
-  "bundleInfo" : {"CFBundleShortVersionString":"4.7.0","CFBundleVersion":"4.7.0","CFBundleIdentifier":"com.yourcompany.installerbase"},
-  "storeInfo" : {"deviceIdentifierForVendor":"B6F3149F-FDB0-5227-9820-F7FCA66F5334","thirdParty":true},
-  "parentProc" : "launchd",
-  "parentPid" : 1,
-  "coalitionName" : "gpt4all",
-  "crashReporterKey" : "FC9E7815-489E-3C0B-67F9-07A62363BE64",
-  "responsiblePid" : 44690,
-  "responsibleProc" : "gpt4all",
-  "codeSigningID" : "",
-  "codeSigningTeamID" : "",
-  "codeSigningFlags" : 16777216,
-  "codeSigningValidationCategory" : 0,
-  "codeSigningTrustLevel" : 4294967295,
-  "bootSessionUUID" : "9B34FC30-8A1C-4EF0-9924-1AB515DE105D",
-  "wakeTime" : 5391,
-  "sleepWakeUUID" : "D636F5E3-C21E-464D-A4D3-1BBA774E2EDE",
-  "sip" : "enabled",
-  "exception" : {"codes":"0x0000000000000000, 0x0000000000000000","rawCodes":[0,0],"type":"EXC_CRASH","signal":"SIGKILL (Code Signature Invalid)"},
-  "termination" : {"flags":66,"code":1,"namespace":"CODESIGNING","indicator":"Taskgated Invalid Signature"},
-  "extMods" : {"caller":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"system":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"targeted":{"thread_create":0,"thread_set_state":0,"task_for_pid":0},"warnings":0},
-  "faultingThread" : 0,
-  "threads" : [{"triggered":true,"id":4441860,"threadState":{"flavor":"x86_THREAD_STATE","rbp":{"value":0},"r12":{"value":0},"rosetta":{"tmp2":{"value":0},"tmp1":{"value":0},"tmp0":{"value":0}},"rbx":{"value":0},"r8":{"value":0},"r15":{"value":0},"r10":{"value":0},"rdx":{"value":0},"rdi":{"value":0},"r9":{"value":0},"r13":{"value":0},"rflags":{"value":515},"rax":{"value":0},"rsp":{"value":0},"r11":{"value":0},"rcx":{"value":0},"r14":{"value":0},"rsi":{"value":0}},"frames":[{"imageOffset":12156,"imageIndex":1}]}],
-  "usedImages" : [
-  {
-    "source" : "P",
-    "arch" : "x86_64",
-    "base" : 8713273344,
-    "size" : 577536,
-    "uuid" : "e6056c94-fc2d-3517-b1e1-46d8eb58a10e",
-    "path" : "/dyld_path_missing",
-    "name" : "dyld_path_missing"
-  },
-  {
-    "source" : "P",
-    "arch" : "arm64",
-    "base" : 140703126032384,
-    "size" : 196608,
-    "uuid" : "e447ba6f-c0b7-3dcb-b110-b38e57558dc3",
-    "path" : "/main_executable_path_missing",
-    "name" : "main_executable_path_missing"
-  },
-  {
-    "size" : 0,
-    "source" : "A",
-    "base" : 0,
-    "uuid" : "00000000-0000-0000-0000-000000000000"
-  }
-],
-  "vmSummary" : "ReadOnly portion of Libraries: Total=1068K resident=0K(0%) swapped_out_or_unallocated=1068K(100%)\nWritable regions: Total=32.3M written=144K(0%) resident=144K(0%) swapped_out=0K(0%) unallocated=32.2M(100%)\n\n                                VIRTUAL   REGION \nREGION TYPE                        SIZE    COUNT (non-coalesced) \n===========                     =======  ======= \nSTACK GUARD                       56.0M        1 \nStack                             8176K        1 \nVM_ALLOCATE                       24.1M        7 \nVM_ALLOCATE (reserved)              84K        2         reserved VM address space (unallocated)\n__DATA                              76K        4 \n__DATA_CONST                        24K        1 \n__DATA_DIRTY                         8K        2 \n__LINKEDIT                         336K        4 \n__TEXT                             756K        2 \n__TPRO_CONST                       276K        1 \nmapped file                        8.6G       40 \npage table in kernel               144K        1 \n===========                     =======  ======= \nTOTAL                              8.7G       66 \nTOTAL, minus reserved VM space     8.7G       66 \n",
-  "legacyInfo" : {
-  "threadTriggered" : {
-  }
-},
-  "logWritingSignature" : "07a14bc9a572610cfe228c38f69650f0cb6f754d",
-  "trialInfo" : {
-  "rollouts" : [
-    {
-      "rolloutId" : "64628732bf2f5257dedc8988",
-      "factorPackIds" : {
-                                        <code class="language-multiline" xml:space="preserve">},
-  "deploymentId" : 240000001
-<span class="token trimmed">(8 more lines were trimmed)</span></code>
-                                        ],
-  "experiments" : [
-    {
-      "treatmentId" : "c47ab4cc-c9c3-4b5d-a87c-e2433ce02597",
-      "experimentId" : "6639bc6ba73d460582162323",
-      "deploymentId" : 400000006
-    },
-    {
-      "treatmentId" : "45f4e2a5-551b-4bc2-a2dc-19c244dda8f8",
-      "experimentId" : "6643969b3099cf28e049862f",
-      "deploymentId" : 400000007
-    }
-  ]
-},
-  "reportNotes" : [
-  "dyld_process_snapshot_get_shared_cache failed",
-  "PC register does not match crashing frame (0x0 vs 0x7FF7FFD8BF7C)"
-]
-}
-Model: Mac15,11, BootROM 11881.1.1, proc 14:10:4 processors, 36 GB, SMC 
-Graphics: Apple M3 Max, Apple M3 Max, Built-In
-Display: Color LCD, 3456 x 2234 Retina, Main, MirrorOff, Online
-Display: DELL P2417H, 1080 x 1920, MirrorOff, Online
-Memory Module: LPDDR5, Micron
-AirPort: spairport_wireless_card_type_wifi (0x14E4, 0x4388), wl0: Jul 26 2024 20:29:22 version 23.10.888.0.41.51.162 FWID 01-1d20bb57
-IO80211_driverkit-1302.71 "IO80211_driverkit-1302.71" Aug  5 2024 22:09:56
-AirPort: 
-Bluetooth: Version (null), 0 services, 0 devices, 0 incoming serial ports
-Network Service: Wi-Fi, AirPort, en0
-USB Device: USB31Bus
-USB Device: USB5807 Hub
-USB Device: USB 10/100/1000 LAN
-USB Device: USB2807 Hub
-USB Device: USB2.0 Hub
-USB Device: USB Serial
-USB Device: USB Audio
-USB Device: USB31Bus
-USB Device: USB31Bus
-USB Device: USB3.0 Hub
-USB Device: Mass Storage Device
-USB Device: USB3.0 Hub
-USB Device: USB 10/100/1000 LAN
-USB Device: USB2.0 Hub
-USB Device: USB2.0 Hub
-USB Device: USB Billboard Device
-Thunderbolt Bus: MacBook Pro, Apple Inc.
-Thunderbolt Bus: MacBook Pro, Apple Inc.
-Thunderbolt Bus: MacBook Pro, Apple Inc.`
                                     </div>
                                 </div>
                             </section>
